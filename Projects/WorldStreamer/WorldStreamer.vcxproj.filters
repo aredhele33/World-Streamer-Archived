@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{5a95f812-5c15-478b-a61d-98d464b493e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{c7212ab6-7b71-42b1-a573-2404f1c6b35b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{29093252-48c7-4f14-bdab-de930e1c8a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{3769d48e-9cd6-416e-aedd-ed0149f83ab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{2071d497-85fc-4d45-991e-5ca7bcc3c34c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\World">
+      <UniqueIdentifier>{ee1578db-68ff-4437-b090-608c8ba60b91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\World">
+      <UniqueIdentifier>{4a069cbd-3721-41a3-b3fb-5d8737cab3af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Streaming">
+      <UniqueIdentifier>{e376fcbc-604c-41c5-9c10-ffe6bc4ec4ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Streamer">
+      <UniqueIdentifier>{0971f7db-e872-413f-ba70-3c71d0339465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GZip">
+      <UniqueIdentifier>{8d7aee1d-b316-403c-94c6-b3d994233312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Zlib">
+      <UniqueIdentifier>{278a6823-2719-4d2b-b9ef-1ed71a2993a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Sources\Sources\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\Sources\Engine\Engine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\Sources\Game\Game.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\Sources\Engine\World\World.cpp">
+      <Filter>Source Files\Engine\World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\Sources\Engine\Streamer\GridManager.cpp">
+      <Filter>Source Files\Engine\Streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\Sources\Engine\Streamer\Streamer.cpp">
+      <Filter>Source Files\Engine\Streaming</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Sources\Headers\Engine\Engine.hpp">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\Headers\Utility\Log.hpp">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\Headers\Game\Game.hpp">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\Headers\Engine\World\SpaceReferencePrecise.hpp">
+      <Filter>Header Files\Engine\World</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\Headers\Engine\World\World.hpp">
+      <Filter>Header Files\Engine\World</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\Headers\Utility\String.hpp">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\Headers\Engine\Streamer\GridManager.hpp">
+      <Filter>Header Files\Engine\Streamer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\Headers\Engine\Streamer\Streamer.hpp">
+      <Filter>Header Files\Engine\Streamer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\Headers\Engine\Streamer\StreamerData.hpp">
+      <Filter>Header Files\Engine\Streamer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Externals\GZIP\GZIP\compress.hpp">
+      <Filter>Header Files\GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Externals\GZIP\GZIP\config.hpp">
+      <Filter>Header Files\GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Externals\GZIP\GZIP\decompress.hpp">
+      <Filter>Header Files\GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Externals\GZIP\GZIP\utils.hpp">
+      <Filter>Header Files\GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Externals\GZIP\GZIP\version.hpp">
+      <Filter>Header Files\GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Externals\ZLIB\ZLIB\zconf.h">
+      <Filter>Header Files\Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Externals\ZLIB\ZLIB\zlib.h">
+      <Filter>Header Files\Zlib</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
