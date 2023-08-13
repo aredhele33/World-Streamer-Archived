@@ -2,7 +2,7 @@
 #### This is an archived project. Since this project is maintained, sources are provided.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Aredhele/World-Streamer-Archived/main/Press/OpenWorldStreamer_Overview.png" />
+  <img src="https://raw.githubusercontent.com/aredhele33/World-Streamer-Archived/main/Press/OpenWorldStreamer_Overview.png" />
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@ External dependencies :
 
 1) Clone or download the repository :
 ```bash 
-git clone https://github.com/Aredhele/World-Streamer-Archived
+git clone https://github.com/aredhele33/World-Streamer-Archived
 ```
 2) Then go into the **Projects** folder in World-Streamer-Archived/Projects and open **WorldStreamer.sln**
 ``` 
@@ -46,7 +46,7 @@ The solution is normally portable and should work on your computer without any e
 3) It should open the solution, select Release or Debug (as you want) and hit CTRL+SHIFT+B or the build button
 4) If you have selected Release, you should now have the following Bin folder :
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Aredhele/World-Streamer-Archived/main/Press/OpenWorldStreamer_BinaryFolder.png" />
+  <img src="https://raw.githubusercontent.com/aredhele33/World-Streamer-Archived/main/Press/OpenWorldStreamer_BinaryFolder.png" />
 </p>
 
 ## How to run ?
@@ -63,7 +63,7 @@ WorldDataGenerator_r.exe 256 256 64 game_data.bin
 ```
 3) It will take seconds to proceed, and you have the following
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Aredhele/World-Streamer-Archived/main/Press/OpenWorldStreamer_GenerationOutput.png" />
+  <img src="https://raw.githubusercontent.com/aredhele33/World-Streamer-Archived/main/Press/OpenWorldStreamer_GenerationOutput.png" />
 </p>
 
 ``` 
@@ -75,19 +75,19 @@ Other values will work but the environment may lack of trees or water etc.
 WorldStreamer_r.exe 0 0 game_data.bin
 ```
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Aredhele/World-Streamer-Archived/main/Press/OpenWorldStreamer_Window.png" />
+  <img src="https://raw.githubusercontent.com/aredhele33/World-Streamer-Archived/main/Press/OpenWorldStreamer_Window.png" />
 </p>
 
 ## How to use it ?
 
 To understand the behavior of the program, here are some basic information :
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Aredhele/World-Streamer-Archived/main/Press/OpenWorldStreamer_WindowInfo.png" />
+  <img src="https://raw.githubusercontent.com/aredhele33/World-Streamer-Archived/main/Press/OpenWorldStreamer_WindowInfo.png" />
 </p>
 
 If you zoom out a bit :
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Aredhele/World-Streamer-Archived/main/Press/OpenWorldStreamer_WindowInfo2.png" />
+  <img src="https://raw.githubusercontent.com/aredhele33/World-Streamer-Archived/main/Press/OpenWorldStreamer_WindowInfo2.png" />
 </p>
 
 Input
@@ -103,16 +103,16 @@ Output examples (Zooming out, moving slowly and loading cells) :
 
 Zoomming out                                                                                                      | Slow move (human speed)
 :----------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------:
-![](https://raw.githubusercontent.com/Aredhele/World-Streamer-Archived/main/Press/OpenWorldStreamer_ZoomOut.gif)  |  ![](https://raw.githubusercontent.com/Aredhele/World-Streamer-Archived/main/Press/OpenWorldStreamer_Slow.gif)
+![](https://raw.githubusercontent.com/aredhele33/World-Streamer-Archived/main/Press/OpenWorldStreamer_ZoomOut.gif)  |  ![](https://raw.githubusercontent.com/aredhele33/World-Streamer-Archived/main/Press/OpenWorldStreamer_Slow.gif)
 **Loading cells**                                                                                                 | **Fast move (debug speed)**
-![](https://raw.githubusercontent.com/Aredhele/World-Streamer-Archived/main/Press/OpenWorldStreamer_Loading.gif)  |  ![](https://raw.githubusercontent.com/Aredhele/World-Streamer-Archived/main/Press/OpenWorldStreamer_Fast.gif)
+![](https://raw.githubusercontent.com/aredhele33/World-Streamer-Archived/main/Press/OpenWorldStreamer_Loading.gif)  |  ![](https://raw.githubusercontent.com/aredhele33/World-Streamer-Archived/main/Press/OpenWorldStreamer_Fast.gif)
 
 ## What does the binary game file contain ?
 
 Here's an quick overview of the binary game file layout (can be reverse engineered from the engine source code) :
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Aredhele/World-Streamer-Archived/main/Press/OpenWorldStreamer_Layout.png" />
+  <img src="https://raw.githubusercontent.com/aredhele33/World-Streamer-Archived/main/Press/OpenWorldStreamer_Layout.png" />
 </p>
 
 Note that the cell buffers are compressed. It saves a lot of disk space for a near 0 cost at runtime (since buffers are small).
